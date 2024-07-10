@@ -1,6 +1,6 @@
 // const apiUrl = "http://localhost:3000/produtos";
 
-const apiUrl = "https://alura-geek-seven-wheat.vercel.app/";
+const apiUrl = process.env.REACT_APP_API_URL;
 
 const listaProduto = async () => {
     try {
