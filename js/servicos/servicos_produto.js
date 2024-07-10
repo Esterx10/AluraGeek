@@ -1,6 +1,4 @@
-// const apiUrl = "http://localhost:3000/produtos";
-
-const apiUrl = process.env.REACT_APP_API_URL;
+const apiUrl = "http://localhost:3000/produtos";
 
 const listaProduto = async () => {
     try {
