@@ -5,7 +5,6 @@
     }
 
 }
-
 @media screen and (max-width: 1040px) {
     .menu_container {
         display: flex;
@@ -25,9 +24,54 @@
     }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 725px) {
     .form_container button {
         width: 120px;
+    }
+
+    .header, .footer_content {
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+    
+    .coracoes{
+        display: none;
+    }
+    .produto_container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+     
+        height: auto;
+    }
+
+    .menu_container {
+        font-size: 0.75rem;
+    }
+};
+
+@media screen and (max-width: 469px) {
+    .form_container button {
+        width: 100px;
+    }
+
+    .header, .footer_content {
+        font-size: 1.0rem;
+        padding: 20px;
+
+    }
+
+    .form_container input {
+        width: 100%;
+        height: auto;
+    }
+    
+    .produto_container{
+        width: auto;
+        height: auto;
+    }
+
+    .menu_container h1{
+        font-size: 0.75rem;
     }
 };
 

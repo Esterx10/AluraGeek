@@ -32,6 +32,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: auto;
+    height: auto;
 }
 
 img {
@@ -43,7 +45,7 @@ img {
     flex-direction: row;
     margin: 50px;
     padding: 60px;
-    gap: 80px;
+    gap: 70px;
     max-width: 100%;
 }
   
@@ -155,8 +157,8 @@ button img {
     border: 3px solid #000000;
     border-radius: 40px;
     font-size: 16px;
-    width: 392px;
-    height: 58px;
+    width: 310px;
+    height: 59px;
     padding: 10px;
     font-family: var(--font-secundaria);
 }
