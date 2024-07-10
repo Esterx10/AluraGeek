@@ -66,8 +66,7 @@
     }
     
     .produto_container{
-        width: auto;
-        height: auto;
+        overflow: scroll;
     }
 
     .menu_container h1{
