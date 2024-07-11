@@ -1,5 +1,7 @@
 const apiUrl = "http://localhost:3000/produtos";
 
+
+
 const listaProduto = async () => {
     try {
         const res = await fetch(apiUrl);
