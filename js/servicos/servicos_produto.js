@@ -1,10 +1,7 @@
-const apiUrl = "http://localhost:3000/produtos";
-
-
 
 const listaProduto = async () => {
     try {
-        const res = await fetch(apiUrl);
+        const res = await fetch("https://json-test-rosy.vercel.app/produtos");
         return await res.json();
     } catch (er) {
         return console.log(er);
@@ -13,7 +10,7 @@ const listaProduto = async () => {
 
 const criarProduto = async (nome, preco, imagem) => {
     try {
-        const res = await fetch(apiUrl, {
+        const res = await fetch("https://json-test-rosy.vercel.app/produtos", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ nome, preco, imagem }),
@@ -26,7 +23,7 @@ const criarProduto = async (nome, preco, imagem) => {
 
 const eliminarProduto = async (id) => {
     try {
-        const res = await fetch(`${apiUrl}/${id}`, {
+        const res = await fetch(`${"https://json-test-rosy.vercel.app/produtos"}/${id}`, {
             method: "DELETE"
         });
         return await res.json();
