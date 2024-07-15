@@ -35,10 +35,9 @@
 <table style="text-align: center;">
   <tr>
     <td>
-      <img height="150px" src="">
+      <img height="150px" src="https://github.com/user-attachments/assets/899f18f0-9754-40cc-aa90-3a4b43d0be47">
     </td>
   <tr>
-    <td align="center">Participação</td>
   </tr>
 </table>
 
